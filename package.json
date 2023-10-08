@@ -1,5 +1,5 @@
 {
-  "homepage": "https://JPSaia.github.io/React_push",
+  "homepage": "http://JPSaia.github.io/React_push",
   "name": "helloreact",
   "version": "0.1.0",
   "private": true,
@@ -12,17 +12,16 @@
     "react-big-calendar": "^1.8.4",
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-
   },
   "eslintConfig": {
     "extends": [
